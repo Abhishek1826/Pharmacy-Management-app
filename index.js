@@ -285,7 +285,7 @@ document.addEventListener('DOMContentLoaded', function() {
     logoutLink.addEventListener('click', function(event) {
         event.preventDefault();
         localStorage.setItem('loginStatus', 'false');
-        window.location.href = 'login.html'; // Redirect to the login page
+        window.location.href = 'index.html'; // Redirect to the login page
     });
 });
 
